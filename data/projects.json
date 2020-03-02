@@ -1,8 +1,45 @@
 [
 	{
+		"title": "Etch a Sketch",
+		"slug": "etch-a-sketch",
+		"url": "https://github.com/demetrio/",
+		"github-url": "https://github.com/demetrio/",
+		"image": "./images/project1.jpg",
+		"description": "I built this site to show off my sweet skills!",
+		"tags": ["Javascript", "CSS"]
+	},
+	{
+		"title": "Simple Blog",
+		"slug": "project-2",
+		"url": "https://example.org/",
+		"github-url": "https://github.com/demetrio/",
+		"image": "./images/project2.jpg",
+		"description": "This one is also good.",
+		"tags": ["CSS", "Flexbox", "CSS Grid"]
+	},
+	{
+		"title": "Catch of The Day",
+		"slug": "project-1",
+		"url": "https://github.com/demetrio/catch-of-the-day",
+		"github-url": "https://github.com/demetrio/",
+		"image": "./images/project1.jpg",
+		"description": "I built this site to show off my sweet skills!",
+		"tags": ["React", "Gatsby", "JavaScript"]
+	},
+	{
+		"title": "Gatsby Blog",
+		"slug": "gatbsy-example-blog",
+		"url": "https://example.org/",
+		"github-url": "https://github.com/demetrio/",
+		"image": "./images/project2.jpg",
+		"description": "This one is also good.",
+		"tags": ["GraphQL"]
+	},
+	{
 		"title": "My Project",
 		"slug": "project-1",
 		"url": "https://github.com/demetrio/catch-of-the-day",
+		"github-url": "https://github.com/demetrio/",
 		"image": "./images/project1.jpg",
 		"description": "I built this site to show off my sweet skills!",
 		"tags": ["React", "Gatsby", "JavaScript"]
@@ -11,6 +48,25 @@
 		"title": "Another Project",
 		"slug": "project-2",
 		"url": "https://example.org/",
+		"github-url": "https://github.com/demetrio/",
+		"image": "./images/project2.jpg",
+		"description": "This one is also good.",
+		"tags": ["GraphQL"]
+	},
+	{
+		"title": "My Project",
+		"slug": "project-1",
+		"url": "https://github.com/demetrio/catch-of-the-day",
+		"github-url": "https://github.com/demetrio/",
+		"image": "./images/project1.jpg",
+		"description": "I built this site to show off my sweet skills!",
+		"tags": ["React", "Gatsby", "JavaScript"]
+	},
+	{
+		"title": "Another Project",
+		"slug": "project-2",
+		"url": "https://example.org/",
+		"github-url": "https://github.com/demetrio/",
 		"image": "./images/project2.jpg",
 		"description": "This one is also good.",
 		"tags": ["GraphQL"]

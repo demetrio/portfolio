@@ -25,8 +25,6 @@ const NavLink = styled(Link)`
 const Header = ({ siteTitle }) => (
 	<header
 		css={css`
-			background: #eee;
-			border-bottom: 1px solid #ddd;
 			display: flex;
 			justify-content: space-between;
 			padding: 1rem calc((100vw - 960px) / 2);

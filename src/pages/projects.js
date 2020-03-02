@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import ProjectPreview from '../components/project-review';
@@ -38,7 +38,6 @@ const Projects = () => {
 			})}
 
 			<SEO title="Projects" />
-			<Link to="/">Go back to the homepage</Link>
 		</Layout>
 	);
 };
