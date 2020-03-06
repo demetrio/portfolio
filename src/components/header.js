@@ -2,10 +2,12 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
+
 import PropTypes from 'prop-types';
+import colors from '../styles/colors';
 
 const NavLink = styled(Link)`
-	color: #222;
+	color: ${colors.black600};
 	font-size: 1rem;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
 		sans-serif;
@@ -15,7 +17,7 @@ const NavLink = styled(Link)`
 	padding: 0.25rem;
 	text-decoration: none;
 	&.current-page {
-		border-bottom: 2px solid #222;
+		border-bottom: 2px solid ${colors.black};
 	}
 	&:last-of-type {
 		margin-right: 0;

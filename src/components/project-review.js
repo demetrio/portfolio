@@ -2,6 +2,8 @@ import React from 'react';
 import Image from 'gatsby-image';
 import styled from '@emotion/styled';
 
+import colors from '../styles/colors';
+
 const Project = styled.div`
 	* {
 		box-sizing: border-box;
@@ -12,7 +14,7 @@ const Project = styled.div`
 	overflow: auto;
 
 	.image {
-		border-bottom: 7px solid #673ab7;
+		border-bottom: 7px solid ${colors.purple800};
 	}
 
 	.info {
