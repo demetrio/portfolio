@@ -1,8 +1,8 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout';
+import ProjectCard from '../components/project-card';
 import SEO from '../components/seo';
-import ProjectPreview from '../components/project-review';
 import styled from '@emotion/styled';
 
 const ListProjects = styled.div`
@@ -19,7 +19,6 @@ const Projects = () => {
 					node {
 						id
 						title
-						description
 						url
 						git_url
 						tags
@@ -42,19 +41,9 @@ const Projects = () => {
 		<Layout>
 			<ListProjects>
 				{projects.map(({ node: project }) => {
-					const { id, title, description, url, git_url, tags } = project;
+					const { id, title, url, git_url, tags } = project;
 					const imageData = project.image.childImageSharp.fluid;
-					return (
-						<ProjectPreview
-							key={id}
-							title={title}
-							description={description}
-							imageData={imageData}
-							url={url}
-							git_url={git_url}
-							tags={tags}
-						/>
-					);
+					return <ProjectCard key={id} title={title} imageData={imageData} url={url} git_url={git_url} tags={tags} />;
 				})}
 			</ListProjects>
 			<SEO title="Projects" />

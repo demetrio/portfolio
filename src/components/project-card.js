@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'gatsby-image';
 import styled from '@emotion/styled';
-
 import colors from '../styles/colors';
+import { FaGithub } from 'react-icons/fa';
 
 const Project = styled.div`
 	* {
@@ -13,38 +13,42 @@ const Project = styled.div`
 	border-radius: 10px;
 	overflow: auto;
 
-	.image {
+	.project-image {
 		border-bottom: 7px solid ${colors.purple800};
 	}
 
-	.info {
-		padding: 1em 1em 0;
-		background-color: red;
+	.project-info {
+		padding: 1em;
 
 		h3 {
 			margin-bottom: 10px;
 		}
+		span {
+			padding: 0.5em;
+		}
 	}
 `;
 
-const ProjectPreview = ({ url, title, description, imageData, git_url, tags }) => (
+const ProjectCard = ({ url, title, imageData, git_url, tags }) => (
 	<Project>
-		<div className="image">
+		<div className="project-image">
 			<Image fluid={imageData} alt={title} />
 		</div>
-
-		<div className="info">
+		<div class="project-info">
 			<h3>{title}</h3>
-			<p>{description}</p>
-		</div>
-		<div className="url">
-			<p>{url}</p>
-			<p>{git_url}</p>
-		</div>
-		<div className="url">
-			<p>{tags.map(tag => tag)}</p>
+			<div className="url">
+				<a href={url}>{url}</a>
+				<a href={git_url}>
+					<FaGithub />
+				</a>
+			</div>
+			<div className="tags">
+				{tags.map(tag => (
+					<span>{tag}</span>
+				))}
+			</div>
 		</div>
 	</Project>
 );
 
-export default ProjectPreview;
+export default ProjectCard;

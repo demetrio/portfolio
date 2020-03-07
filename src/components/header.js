@@ -16,8 +16,9 @@ const NavLink = styled(Link)`
 	margin: 0 0.5rem 0 0;
 	padding: 0.25rem;
 	text-decoration: none;
+
 	&.current-page {
-		border-bottom: 2px solid ${colors.black};
+		border-bottom: 2px solid ${colors.black600};
 	}
 	&:last-of-type {
 		margin-right: 0;

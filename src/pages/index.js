@@ -19,6 +19,9 @@ const Hero = styled('div')`
 	max-width: 830px;
 	@media (max-width: 600px) {
 		margin-bottom: 3em;
+		h1 {
+			font-size: 2em;
+		}
 	}
 	h1 {
 		margin-bottom: 1em;
@@ -69,7 +72,7 @@ const IndexPage = () => {
 				<Welcome>
 					Hi! I'm Demetrio and I'm a Front End Developer. Here you can find out more <Link to="/about/">about me</Link>, see my{' '}
 					<Link to="/projects/">portfolio</Link> and my code at <a href="https://github.demetrio.dev">Github</a> or add me to{' '}
-					<a href="https://github.demetrio.dev">LinkedIn</a>.
+					<a href="https://linkedin.demetrio.dev">LinkedIn</a>.
 				</Welcome>
 			</Hero>
 		</Layout>
