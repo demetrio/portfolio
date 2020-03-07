@@ -5,106 +5,86 @@
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/adopt-me",
 		"image": "./images/project1.jpg",
-		"description": null,
-		"tags": [2, 34]
+		"tags": ["javascript", "react", "gatbsy"]
 	},
 	{
-		"title": "Audio-Visualizer-Oscilloscope",
+		"title": "Audio Visualizer & Oscilloscope",
 		"slug": "Audio-Visualizer-Oscilloscope",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/Audio-Visualizer-Oscilloscope",
 		"image": "./images/project1.jpg",
-		"description": null,
-		"tags": []
+		"tags": ["javascript"]
 	},
 	{
-		"title": "catch-of-the-day",
+		"title": "Catch of the Day",
 		"slug": "catch-of-the-day",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/catch-of-the-day",
 		"image": "./images/project1.jpg",
-		"description": "Catch Of The Day - Fresh Seafood Market made with React!",
 		"tags": []
 	},
 	{
-		"title": "currency-converter",
+		"title": "Currency Converter",
 		"slug": "currency-converter",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/currency-converter",
 		"image": "./images/project1.jpg",
-		"description": null,
 		"tags": []
 	},
 	{
-		"title": "dad-jokes",
+		"title": "Dad Jokes",
 		"slug": "dad-jokes",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/dad-jokes",
 		"image": "./images/project1.jpg",
-		"description": null,
 		"tags": []
 	},
 	{
-		"title": "etch-a-sketch",
+		"title": "Etch-a-sketch!",
 		"slug": "etch-a-sketch",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/etch-a-sketch",
 		"image": "./images/project1.jpg",
-		"description": "Experience the world's favorite drawing toy: Etch A Sketch!!",
 		"tags": []
 	},
 	{
-		"title": "evangelion-dot-es-site",
-		"slug": "evangelion-dot-es-site",
-		"url": "https://demetrio.dev",
-		"git-url": "https://github.com/demetrio/evangelion-dot-es-site",
-		"image": "./images/project1.jpg",
-		"description": null,
-		"tags": []
-	},
-	{
-		"title": "gatsby-example-blog",
+		"title": "Gatsby Blog",
 		"slug": "gatsby-example-blog",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/gatsby-example-blog",
 		"image": "./images/project1.jpg",
-		"description": "A simple blog made with gatsby",
 		"tags": []
 	},
 	{
-		"title": "javascript30",
+		"title": "Javascript 30",
 		"slug": "javascript30",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/javascript30",
 		"image": "./images/project1.jpg",
-		"description": "My participation in the JavaScript30 course, made by @WesBos",
 		"tags": []
 	},
 	{
-		"title": "marketing-seo",
+		"title": "Marketing Seo",
 		"slug": "marketing-seo",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/marketing-seo",
 		"image": "./images/project1.jpg",
-		"description": null,
 		"tags": []
 	},
 	{
-		"title": "simpleblog",
+		"title": "Simple Blog",
 		"slug": "simpleblog",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/simpleblog",
 		"image": "./images/project1.jpg",
-		"description": null,
 		"tags": []
 	},
 	{
-		"title": "splashpage",
+		"title": "Splash Page",
 		"slug": "splashpage",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/splashpage",
 		"image": "./images/project1.jpg",
-		"description": "A simple website",
 		"tags": []
 	},
 	{
@@ -113,16 +93,6 @@
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/Studio-Ghibli-API-App",
 		"image": "./images/project1.jpg",
-		"description": null,
-		"tags": []
-	},
-	{
-		"title": "als-project",
-		"slug": "als-project",
-		"url": "https://demetrio.dev",
-		"git-url": "https://github.com/demetrio/als-project",
-		"image": "./images/project1.jpg",
-		"description": null,
 		"tags": []
 	}
 ]
