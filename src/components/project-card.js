@@ -34,7 +34,7 @@ const ProjectCard = ({ url, title, imageData, git_url, tags }) => (
 		<div className="project-image">
 			<Image fluid={imageData} alt={title} />
 		</div>
-		<div class="project-info">
+		<div className="project-info">
 			<h3>{title}</h3>
 			<div className="url">
 				<a href={url}>{url}</a>
@@ -44,7 +44,7 @@ const ProjectCard = ({ url, title, imageData, git_url, tags }) => (
 			</div>
 			<div className="tags">
 				{tags.map(tag => (
-					<span>{tag}</span>
+					<span key={tag}>{tag}</span>
 				))}
 			</div>
 		</div>

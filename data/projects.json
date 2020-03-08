@@ -4,7 +4,15 @@
 		"slug": "adopt-me",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/adopt-me",
-		"image": "./images/project1.jpg",
+		"image": "./images/adopt-me.jpg",
+		"tags": ["javascript", "react", "gatbsy"]
+	},
+	{
+		"title": "My porfolio",
+		"slug": "my-portofilio",
+		"url": "https://demetrio.dev",
+		"git-url": "https://github.com/demetrio/portfolio",
+		"image": "./images/adopt-me.jpg",
 		"tags": ["javascript", "react", "gatbsy"]
 	},
 	{
@@ -12,87 +20,79 @@
 		"slug": "Audio-Visualizer-Oscilloscope",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/Audio-Visualizer-Oscilloscope",
-		"image": "./images/project1.jpg",
+		"image": "./images/audio-visualizer.jpg",
 		"tags": ["javascript"]
 	},
 	{
 		"title": "Catch of the Day",
 		"slug": "catch-of-the-day",
-		"url": "https://demetrio.dev",
+		"url": "https://catchoftheday.demetrio.dev/",
 		"git-url": "https://github.com/demetrio/catch-of-the-day",
-		"image": "./images/project1.jpg",
-		"tags": []
+		"image": "./images/catch-of-the-day.jpg",
+		"tags": ["javascript", "react", "gatbsy"]
 	},
 	{
 		"title": "Currency Converter",
 		"slug": "currency-converter",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/currency-converter",
-		"image": "./images/project1.jpg",
-		"tags": []
+		"image": "./images/currency-converter.jpg",
+		"tags": ["javascript"]
 	},
 	{
 		"title": "Dad Jokes",
 		"slug": "dad-jokes",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/dad-jokes",
-		"image": "./images/project1.jpg",
-		"tags": []
+		"image": "./images/dad-jokes.jpg",
+		"tags": ["javascript"]
 	},
 	{
 		"title": "Etch-a-sketch!",
 		"slug": "etch-a-sketch",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/etch-a-sketch",
-		"image": "./images/project1.jpg",
-		"tags": []
+		"image": "./images/etch-a-sketch.jpg",
+		"tags": ["javascript"]
 	},
 	{
 		"title": "Gatsby Blog",
 		"slug": "gatsby-example-blog",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/gatsby-example-blog",
-		"image": "./images/project1.jpg",
-		"tags": []
+		"image": "./images/gatsby-blog.jpg",
+		"tags": ["javascript"]
 	},
 	{
 		"title": "Javascript 30",
 		"slug": "javascript30",
-		"url": "https://demetrio.dev",
+		"url": "https://js30.demetrio.dev",
 		"git-url": "https://github.com/demetrio/javascript30",
-		"image": "./images/project1.jpg",
-		"tags": []
+		"image": "./images/js30.jpg",
+		"tags": ["javascript"]
 	},
 	{
 		"title": "Marketing Seo",
 		"slug": "marketing-seo",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/marketing-seo",
-		"image": "./images/project1.jpg",
-		"tags": []
+		"image": "./images/seo-marketing.jpg",
+		"tags": ["javascript"]
 	},
 	{
 		"title": "Simple Blog",
 		"slug": "simpleblog",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/simpleblog",
-		"image": "./images/project1.jpg",
-		"tags": []
+		"image": "./images/simpleblog.jpg",
+		"tags": ["javascript"]
 	},
 	{
 		"title": "Splash Page",
 		"slug": "splashpage",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/splashpage",
-		"image": "./images/project1.jpg",
-		"tags": []
-	},
-	{
-		"title": "Studio-Ghibli-API-App",
-		"slug": "Studio-Ghibli-API-App",
-		"url": "https://demetrio.dev",
-		"git-url": "https://github.com/demetrio/Studio-Ghibli-API-App",
-		"image": "./images/project1.jpg",
-		"tags": []
+		"image": "./images/splashpage.jpg",
+		"tags": ["javascript"]
 	}
 ]
