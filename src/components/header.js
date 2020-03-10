@@ -6,6 +6,15 @@ import { css } from '@emotion/core';
 import PropTypes from 'prop-types';
 import colors from '../styles/colors';
 
+const HeaderContainer = styled.header`
+	display: flex;
+	justify-content: space-between;
+	padding: 1.25em 0 1.25em;
+	a {
+		padding: 0.25rem 0 0.25rem;
+	}
+`;
+
 const NavLink = styled(Link)`
 	color: ${colors.black600};
 	font-size: 1rem;
@@ -26,13 +35,7 @@ const NavLink = styled(Link)`
 `;
 
 const Header = ({ siteTitle }) => (
-	<header
-		css={css`
-			display: flex;
-			justify-content: space-between;
-			padding: 1rem calc((100vw - 960px) / 2);
-		`}
-	>
+	<HeaderContainer>
 		<NavLink to="/" fontWeight="bold">
 			{siteTitle}
 		</NavLink>
@@ -51,7 +54,7 @@ const Header = ({ siteTitle }) => (
 				Portfolio
 			</NavLink>
 		</nav>
-	</header>
+	</HeaderContainer>
 );
 
 Header.propTypes = {
