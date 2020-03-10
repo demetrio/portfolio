@@ -7,8 +7,7 @@ import styled from '@emotion/styled';
 
 const ListProjects = styled.div`
 	display: grid;
-
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 	grid-gap: 1em;
 `;
 

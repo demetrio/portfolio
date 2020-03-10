@@ -13,7 +13,7 @@
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/portfolio",
 		"image": "./images/adopt-me.jpg",
-		"tags": ["javascript", "react", "gatbsy", "git"]
+		"tags": ["javascript", "react", "gatbsy", "CSS Grid", "git"]
 	},
 	{
 		"title": "Audio Visualizer & Oscilloscope",
@@ -45,7 +45,7 @@
 		"url": "https://dadjokes.demetrio.dev",
 		"git-url": "https://github.com/demetrio/dad-jokes",
 		"image": "./images/dad-jokes.jpg",
-		"tags": ["javascript", "git"]
+		"tags": ["javascript", "ES6", "git"]
 	},
 	{
 		"title": "Etch-a-sketch!",
@@ -61,7 +61,7 @@
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/gatsby-example-blog",
 		"image": "./images/gatsby-blog.jpg",
-		"tags": ["javascript", "git"]
+		"tags": ["javascript", "ES6", "git"]
 	},
 	{
 		"title": "Javascript 30",
@@ -69,7 +69,7 @@
 		"url": "https://js30.demetrio.dev",
 		"git-url": "https://github.com/demetrio/javascript30",
 		"image": "./images/js30.jpg",
-		"tags": ["javascript", "git"]
+		"tags": ["javascript", "ES6", "CSS Grid", "Flexbox", "git"]
 	},
 	{
 		"title": "Marketing Seo",
