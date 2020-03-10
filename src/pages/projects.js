@@ -3,12 +3,17 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import ProjectCard from '../components/project-card';
 import SEO from '../components/seo';
+import dimensions from '../styles/dimensions';
 import styled from '@emotion/styled';
 
 const ListProjects = styled.div`
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 1em;
+
+	@media (max-width: ${dimensions.maxwidthMobile}px) {
+		grid-template-columns: 1fr;
+	}
 `;
 
 const Projects = () => {
