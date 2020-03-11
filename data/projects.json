@@ -5,7 +5,7 @@
 		"url": "https://adopt.demetrio.dev",
 		"git-url": "https://github.com/demetrio/adopt-me",
 		"image": "./images/adopt-me.jpg",
-		"tags": ["Javascript", "React", "Gatbsy", "Git"]
+		"tags": ["React", "Javascript", "ES6", "Gatbsy", "Git"]
 	},
 	{
 		"title": "My porfolio",
@@ -13,7 +13,7 @@
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/portfolio",
 		"image": "./images/adopt-me.jpg",
-		"tags": ["Javascript", "React", "Gatbsy", "CSS Grid", "Git"]
+		"tags": ["React", "Gatbsy", "Javascript", "SEO", "CSS Grid", "Git"]
 	},
 	{
 		"title": "Audio Visualizer & Oscilloscope",
@@ -21,7 +21,7 @@
 		"url": "https://oscilloscope.demetrio.dev",
 		"git-url": "https://github.com/demetrio/Audio-Visualizer-Oscilloscope",
 		"image": "./images/audio-visualizer.jpg",
-		"tags": ["Javascript", "Git"]
+		"tags": ["Javascript", "ES6", "Parcel", "Git"]
 	},
 	{
 		"title": "Catch of the Day",
@@ -29,7 +29,7 @@
 		"url": "https://catchoftheday.demetrio.dev/",
 		"git-url": "https://github.com/demetrio/catch-of-the-day",
 		"image": "./images/catch-of-the-day.jpg",
-		"tags": ["Javascript", "React", "Gatbsy", "Git"]
+		"tags": ["React", "Firebase", "OAuth", "Git"]
 	},
 	{
 		"title": "Currency Converter",
@@ -37,7 +37,7 @@
 		"url": "https://currency.demetrio.dev",
 		"git-url": "https://github.com/demetrio/currency-converter",
 		"image": "./images/currency-converter.jpg",
-		"tags": ["Javascript", "Git"]
+		"tags": ["Javascript", "ES6", "Git"]
 	},
 	{
 		"title": "Dad Jokes",
@@ -45,23 +45,23 @@
 		"url": "https://dadjokes.demetrio.dev",
 		"git-url": "https://github.com/demetrio/dad-jokes",
 		"image": "./images/dad-jokes.jpg",
-		"tags": ["Javascript", "ES6", "Git"]
+		"tags": ["Javascript", "Parcel", "APIs", "ES6", "Git"]
 	},
 	{
 		"title": "Etch-a-sketch!",
 		"slug": "etch-a-sketch",
-		"url": "https://demetrio.dev",
+		"url": "https://sketch.demetrio.dev/",
 		"git-url": "https://github.com/demetrio/etch-a-sketch",
 		"image": "./images/etch-a-sketch.jpg",
-		"tags": ["Javascript", "Git"]
+		"tags": ["Javascript", "ES6", "Canvas", "Git"]
 	},
 	{
 		"title": "Gatsby Blog",
 		"slug": "gatsby-example-blog",
-		"url": "https://demetrio.dev",
+		"url": "https://gatsbyblog.demetrio.dev",
 		"git-url": "https://github.com/demetrio/gatsby-example-blog",
 		"image": "./images/gatsby-blog.jpg",
-		"tags": ["Javascript", "ES6", "Git"]
+		"tags": ["Gatbsy", "React", "Javascript", "ES6", "APIs", "CSS Grid", "Flexbox", "Git"]
 	},
 	{
 		"title": "Javascript 30",
@@ -74,25 +74,25 @@
 	{
 		"title": "Marketing Seo",
 		"slug": "marketing-seo",
-		"url": "https://demetrio.dev",
+		"url": "https://seomarketing.demetrio.dev",
 		"git-url": "https://github.com/demetrio/marketing-seo",
 		"image": "./images/seo-marketing.jpg",
-		"tags": ["Javascript", "Git"]
+		"tags": ["CSS Grid", "Flexbox", "Git"]
 	},
 	{
 		"title": "Simple Blog",
 		"slug": "simpleblog",
-		"url": "https://demetrio.dev",
+		"url": "https://simpleblog.demetrio.dev",
 		"git-url": "https://github.com/demetrio/simpleblog",
 		"image": "./images/simpleblog.jpg",
-		"tags": ["Javascript", "Git"]
+		"tags": ["Flexbox", "Git"]
 	},
 	{
 		"title": "Splash Page",
 		"slug": "splashpage",
-		"url": "https://demetrio.dev",
+		"url": "https://splash.demetrio.dev",
 		"git-url": "https://github.com/demetrio/splashpage",
 		"image": "./images/splashpage.jpg",
-		"tags": ["Javascript", "Git"]
+		"tags": ["Flexbox", "Git"]
 	}
 ]

@@ -1,10 +1,17 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import styled from '@emotion/styled';
 import Layout from '../components/layout';
+import dimensions from '../styles/dimensions';
 import ProjectCard from '../components/project-card';
 import SEO from '../components/seo';
-import dimensions from '../styles/dimensions';
-import styled from '@emotion/styled';
+
+const Welcome = styled.h1`
+	font-size: 2.8em;
+	line-height: 1.45;
+	font-weight: 800;
+	margin-bottom: 1em;
+`;
 
 const ListProjects = styled.div`
 	display: grid;
@@ -44,6 +51,8 @@ const Projects = () => {
 
 	return (
 		<Layout>
+			<SEO title="Projects" />
+			<Welcome>My Portfolio</Welcome>
 			<ListProjects>
 				{projects.map(({ node: project }) => {
 					const { id, title, url, git_url, tags } = project;
@@ -51,7 +60,6 @@ const Projects = () => {
 					return <ProjectCard key={id} title={title} imageData={imageData} url={url} git_url={git_url} tags={tags} />;
 				})}
 			</ListProjects>
-			<SEO title="Projects" />
 		</Layout>
 	);
 };

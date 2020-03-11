@@ -28,21 +28,23 @@ const Project = styled.div`
 			gap: 10px;
 			grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 		}
-		span {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			border: 1px solid black;
-			text-align: center;
-			padding: 5px 10px;
-		}
 
 		.url {
 			display: flex;
 			gap: 10px;
 			grid-template-columns: repeat(auto-fit);
+			margin-bottom: 10px;
 		}
 	}
+`;
+
+const Tag = styled.span`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px 10px;
 `;
 
 const Button = styled.a`
@@ -78,7 +80,7 @@ const ProjectCard = ({ url, title, imageData, git_url, tags }) => (
 			</div>
 			<div className="tags">
 				{tags.map(tag => (
-					<span key={tag}>{tag}</span>
+					<Tag key={tag}>{tag}</Tag>
 				))}
 			</div>
 		</div>

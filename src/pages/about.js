@@ -11,23 +11,17 @@ const Welcome = styled.h1`
 	margin-bottom: 1em;
 `;
 
-const Hero = styled('div')`
-	padding-top: 2.5em;
-	padding-bottom: 3em;
-	margin-bottom: 6em;
-	max-width: 830px;
-	@media (max-width: 600px) {
-		margin-bottom: 3em;
-	}
-`;
-
 const about = () => {
 	return (
 		<Layout>
 			<SEO title="Home" />
-			<Hero>
-				<Welcome>Hi! I'm Demetrio!</Welcome>
-			</Hero>
+			<Welcome>About me</Welcome>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel libero placerat neque tempus fermentum eu at metus. orem
+				ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel libero placerat neque tempus fermentum eu at metus. orem ipsum
+				dolor sit amet, consectetur adipiscing elit. Curabitur vel libero placerat neque tempus fermentum eu at metus.
+			</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel libero placerat neque tempus fermentum eu at metus.</p>
 		</Layout>
 	);
 };

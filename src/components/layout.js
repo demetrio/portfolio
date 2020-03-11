@@ -23,6 +23,12 @@ const MainContainer = styled.div`
 	}
 `;
 
+const Hero = styled('div')`
+	padding-top: 2.5em;
+	padding-bottom: 3em;
+	margin-bottom: 6em;
+`;
+
 const Layout = ({ children }) => {
 	const data = useStaticQuery(graphql`
 		query SiteTitleQuery {
@@ -37,9 +43,9 @@ const Layout = ({ children }) => {
 	return (
 		<MainContainer>
 			<Header siteTitle={data.site.siteMetadata.title} />
-			<div style={{}}>
+			<Hero>
 				<main>{children}</main>
-			</div>
+			</Hero>
 		</MainContainer>
 	);
 };
