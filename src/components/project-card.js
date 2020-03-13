@@ -39,6 +39,7 @@ const Project = styled.div`
 `;
 
 const Tag = styled.span`
+	font-family: Roboto, -apple-system, Helvetica Neue, sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;

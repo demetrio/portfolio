@@ -18,8 +18,7 @@ const HeaderContainer = styled.header`
 const NavLink = styled(Link)`
 	color: ${colors.black600};
 	font-size: 1rem;
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-		sans-serif;
+	font-family: Roboto, -apple-system, Helvetica Neue, sans-serif;
 	font-weight: ${props => props.fontWeight || 'normal'};
 	line-height: 1;
 	margin: 0 0.5rem 0 0;
