@@ -23,8 +23,8 @@ const MainContainer = styled.div`
 	}
 `;
 
-const Hero = styled('div')`
-	padding-top: 2.5em;
+const Hero = styled.div`
+	padding-top: 2em;
 	padding-bottom: 3em;
 	margin-bottom: 6em;
 `;

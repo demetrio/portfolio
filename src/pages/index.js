@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import dimensions from '../styles/dimensions';
 import colors from '../styles/colors';
 import SEO from '../components/seo';
+import Fade from 'react-reveal/Fade';
 
 import styled from '@emotion/styled';
 
@@ -59,11 +60,13 @@ const IndexPage = () => {
 	return (
 		<Layout>
 			<SEO title="Home" />
-			<Welcome>
-				Hi! I'm Demetrio and I'm a Front End Developer. Here you can find out more <Link to="/about/">about me</Link>, see my{' '}
-				<Link to="/projects/">portfolio</Link> and my code at <a href="https://github.demetrio.dev">Github</a> or add me to{' '}
-				<a href="https://linkedin.demetrio.dev">LinkedIn</a>.
-			</Welcome>
+			<Fade left>
+				<Welcome>
+					Hi! I'm Demetrio and I'm a Front End Developer. Here you can find out more <Link to="/about/">about me</Link>, see my{' '}
+					<Link to="/projects/">portfolio</Link> and my code at <a href="https://github.demetrio.dev">Github</a> or add me to{' '}
+					<a href="https://linkedin.demetrio.dev">LinkedIn</a>.
+				</Welcome>
+			</Fade>
 		</Layout>
 	);
 };

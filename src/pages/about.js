@@ -1,4 +1,6 @@
 import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
@@ -8,22 +10,53 @@ const Welcome = styled.h1`
 	font-size: 2.8em;
 	line-height: 1.45;
 	font-weight: 800;
-	margin-bottom: 1em;
 `;
 
-const about = () => {
+const Subtitle = styled.h2`
+	border-bottom: 1px solid red;
+`;
+
+const About = () => {
+	const data = useStaticQuery(graphql`
+		{
+			allSkillsJson {
+				edges {
+					node {
+						main
+						skills
+					}
+				}
+			}
+		}
+	`);
+
+	const skills = data.allSkillsJson.edges;
+
 	return (
 		<Layout>
 			<SEO title="Home" />
 			<Welcome>About me</Welcome>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel libero placerat neque tempus fermentum eu at metus. orem
-				ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel libero placerat neque tempus fermentum eu at metus. orem ipsum
-				dolor sit amet, consectetur adipiscing elit. Curabitur vel libero placerat neque tempus fermentum eu at metus.
+				I have a powerful passion for UI & UX Design that together with my obsessive attention to detail makes me care for my work to the
+				fullest. In my free time, I love to search about web development and look at other people’s ideas.
 			</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel libero placerat neque tempus fermentum eu at metus.</p>
+			<p>
+				Whenever I see an ingenious design or project, I need to know how it was achieved, and if I discover a fresh technology, I try to
+				learn it and think of a concept that can fit with it and share this with my friends.
+			</p>
+			<p>Apart from this, I have a great enthusiasm for the audiovisual world, video games, show business and communication.</p>
+			<p>I’m focusing on improving my knowledge of React, GraphQL and Accessibility, among other technologies.</p>
+			<Subtitle>Skills</Subtitle>
+			{skills.map(({ node: skill }) => {
+				const { main, skills } = skill;
+				return (
+					<p>
+						{main}:...{skills}
+					</p>
+				);
+			})}
 		</Layout>
 	);
 };
 
-export default about;
+export default About;

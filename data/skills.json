@@ -1,0 +1,18 @@
+[
+	{
+		"main": "HTML",
+		"skills": ["HTML5", "Accessibility"]
+	},
+	{
+		"main": "CSS",
+		"skills": ["CSS3", "Bootstrap", "Sass", "Flexbox", "CSS Grid", "BEM"]
+	},
+	{
+		"main": "JS",
+		"skills": ["ES6+", "React", "Gatsby"]
+	},
+	{
+		"main": "Other",
+		"skills": ["Git", "ESLint", "Prettier", "Parcel", "Adobe Photoshop", "Figma"]
+	}
+]

@@ -10,7 +10,6 @@ const Welcome = styled.h1`
 	font-size: 2.8em;
 	line-height: 1.45;
 	font-weight: 800;
-	margin-bottom: 1em;
 `;
 
 const ListProjects = styled.div`
