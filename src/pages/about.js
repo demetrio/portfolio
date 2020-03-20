@@ -50,8 +50,8 @@ const About = () => {
 			{skills.map(({ node: skill }) => {
 				const { main, skills } = skill;
 				return (
-					<p>
-						{main}:...{skills}
+					<p key={main}>
+						{main}: <span key={skill}>{skills.join(', ')}.</span>
 					</p>
 				);
 			})}
