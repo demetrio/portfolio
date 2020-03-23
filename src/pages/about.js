@@ -13,7 +13,8 @@ const Welcome = styled.h1`
 `;
 
 const Subtitle = styled.h2`
-	border-bottom: 1px solid red;
+	border-bottom: 1px solid black;
+	margin: 1.45rem 0;
 `;
 
 const About = () => {

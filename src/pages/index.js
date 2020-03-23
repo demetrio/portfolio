@@ -23,12 +23,15 @@ const Welcome = styled.h1`
 			color: ${colors.teal500};
 		}
 		&:nth-of-type(2) {
-			color: ${colors.orange500};
+			color: ${colors.pink500};
 		}
 		&:nth-of-type(3) {
-			color: ${colors.purple500};
+			color: ${colors.orange500};
 		}
 		&:nth-of-type(4) {
+			color: ${colors.purple500};
+		}
+		&:nth-of-type(5) {
 			color: ${colors.blue500};
 		}
 		&:hover {
@@ -39,14 +42,18 @@ const Welcome = styled.h1`
 				background-color: ${colors.teal200};
 			}
 			&:nth-of-type(2) {
+				color: ${colors.pink600};
+				background-color: ${colors.pink200};
+			}
+			&:nth-of-type(3) {
 				color: ${colors.orange600};
 				background-color: ${colors.orange200};
 			}
-			&:nth-of-type(3) {
+			&:nth-of-type(4) {
 				color: ${colors.purple600};
 				background-color: ${colors.purple200};
 			}
-			&:nth-of-type(4) {
+			&:nth-of-type(5) {
 				color: ${colors.blue600};
 				background-color: ${colors.blue200};
 			}
@@ -59,9 +66,9 @@ const IndexPage = () => {
 		<Layout>
 			<SEO title="Home" />
 			<Welcome>
-				Hi! I'm Demetrio and I'm a Front End Developer. Here you can find out more <Link to="/about/">about me</Link>, see my{' '}
-				<Link to="/projects/">portfolio</Link> and my code at <a href="https://github.demetrio.dev">Github</a> or add me to{' '}
-				<a href="https://linkedin.demetrio.dev">LinkedIn</a>.
+				Hi! I'm Demetrio and I'm a Front End Developer. Here you can find out more <Link to="/about/">about me</Link>, send me{' '}
+				<a href="mailto:contact@demetrio.dev">an email</a>, see my <Link to="/projects/">portfolio</Link> and my code at{' '}
+				<a href="https://github.demetrio.dev">Github</a> or add me to <a href="https://linkedin.demetrio.dev">LinkedIn</a>.
 			</Welcome>
 		</Layout>
 	);
