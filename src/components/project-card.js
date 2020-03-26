@@ -3,6 +3,7 @@ import Image from 'gatsby-image';
 import styled from '@emotion/styled';
 import colors from '../styles/colors';
 import { FaGithub } from 'react-icons/fa';
+import { FiExternalLink } from 'react-icons/fi';
 
 const Project = styled.div`
 	* {
@@ -28,14 +29,14 @@ const Project = styled.div`
 			gap: 10px;
 			grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 		}
-
-		.url {
-			display: flex;
-			gap: 10px;
-			grid-template-columns: repeat(auto-fit);
-			margin-bottom: 10px;
-		}
 	}
+`;
+
+const Url = styled.div`
+	display: flex;
+	gap: 10px;
+	grid-template-columns: repeat(auto-fit);
+	margin-bottom: 10px;
 `;
 
 const Tag = styled.span`
@@ -49,19 +50,15 @@ const Tag = styled.span`
 `;
 
 const Button = styled.a`
-	width: 50%;
-	font-weight: bold;
+	font-family: Roboto, -apple-system, Helvetica Neue, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
 	text-align: center;
-	display: inline-block;
-	border: none;
 	padding: 5px 10px;
-	cursor: pointer;
-	border-radius: 6px;
-	background: #03a9f4;
-	color: white;
-	position: relative;
-	top: 0;
-	transition: 0.2s ease;
+	width: 50%;
+	text-decoration: none;
 `;
 
 const ProjectCard = ({ url, title, imageData, git_url, tags }) => (
@@ -71,14 +68,14 @@ const ProjectCard = ({ url, title, imageData, git_url, tags }) => (
 		</div>
 		<div className="project-info">
 			<h3>{title}</h3>
-			<div className="url">
+			<Url>
 				<Button className="button" href={url}>
-					Link
+					Website <FiExternalLink />
 				</Button>
 				<Button className="buttton" href={git_url}>
-					<FaGithub />
+					Repository <FaGithub />
 				</Button>
-			</div>
+			</Url>
 			<div className="tags">
 				{tags.map(tag => (
 					<Tag key={tag}>{tag}</Tag>
