@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'gatsby-image';
 import styled from '@emotion/styled';
 import colors from '../styles/colors';
-import dimensions from '../styles/dimensions';
 import { FaGithub } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
 
@@ -37,10 +36,6 @@ const Url = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 10px;
-
-	@media (max-width: ${dimensions.maxwidthMobile}px) {
-		flex-wrap: wrap;
-	}
 `;
 
 const Tag = styled.span`
