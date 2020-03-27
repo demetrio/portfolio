@@ -17,7 +17,7 @@ const ListProjects = styled.div`
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 1em;
 
-	@media (max-width: ${dimensions.maxwidthMobile}px) {
+	@media (max-width: ${dimensions.maxwidthTablet}px) {
 		grid-template-columns: 1fr;
 	}
 `;

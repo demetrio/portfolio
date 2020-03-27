@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'gatsby-image';
 import styled from '@emotion/styled';
 import colors from '../styles/colors';
+import dimensions from '../styles/dimensions';
 import { FaGithub } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
 
@@ -17,26 +18,29 @@ const Project = styled.div`
 	.project-image {
 		border-bottom: 7px solid ${colors.purple800};
 	}
-
-	.project-info {
-		padding: 1em;
-
-		h3 {
-			margin-bottom: 10px;
-		}
-		.tags {
-			display: grid;
-			gap: 10px;
-			grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-		}
+`;
+const ProjectInfo = styled.div`
+	padding: 1em;
+	h3 {
+		margin-bottom: 10px;
 	}
+`;
+
+const TagContainer = styled.div`
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 `;
 
 const Url = styled.div`
 	display: flex;
-	gap: 10px;
-	grid-template-columns: repeat(auto-fit);
+	justify-content: space-between;
+	align-items: center;
 	margin-bottom: 10px;
+
+	@media (max-width: ${dimensions.maxwidthMobile}px) {
+		flex-wrap: wrap;
+	}
 `;
 
 const Tag = styled.span`
@@ -54,11 +58,19 @@ const Button = styled.a`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid black;
 	text-align: center;
 	padding: 5px 10px;
-	width: 50%;
 	text-decoration: none;
+	color: black;
+	width: 100%;
+
+	&:hover {
+		color: ${colors.purple600};
+	}
+	span {
+		display: inline-block;
+		padding-right: 0.5rem;
+	}
 `;
 
 const ProjectCard = ({ url, title, imageData, git_url, tags }) => (
@@ -66,22 +78,24 @@ const ProjectCard = ({ url, title, imageData, git_url, tags }) => (
 		<div className="project-image">
 			<Image fluid={imageData} alt={title} />
 		</div>
-		<div className="project-info">
+		<ProjectInfo>
 			<h3>{title}</h3>
 			<Url>
-				<Button className="button" href={url}>
-					Website <FiExternalLink />
+				<Button href={url}>
+					<span>Website</span>
+					<FiExternalLink />
 				</Button>
-				<Button className="buttton" href={git_url}>
-					Repository <FaGithub />
+				<Button href={git_url}>
+					<span>Repository</span>
+					<FaGithub />
 				</Button>
 			</Url>
-			<div className="tags">
+			<TagContainer>
 				{tags.map(tag => (
 					<Tag key={tag}>{tag}</Tag>
 				))}
-			</div>
-		</div>
+			</TagContainer>
+		</ProjectInfo>
 	</Project>
 );
 
