@@ -10,6 +10,7 @@ module.exports = {
 		`gatsby-plugin-sharp`,
 		`gatsby-transformer-json`,
 		`gatsby-plugin-emotion`,
+		`gatsby-plugin-offline`,
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
@@ -41,6 +42,12 @@ module.exports = {
 				theme_color: `#663399`,
 				display: `minimal-ui`,
 				icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+			},
+		},
+		{
+			resolve: `gatsby-plugin-offline`,
+			options: {
+				precachePages: [`/about/`, `/projects/`],
 			},
 		},
 	],
