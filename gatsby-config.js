@@ -1,11 +1,11 @@
 module.exports = {
 	siteMetadata: {
 		title: `Demetrio Alvarez`,
-		titleTemplate: 'FrontEnd dev',
 		description: `Welcome to my porfolio! Here you can find more info about me.`,
-		url: 'https://www.demetrio.dev', // No trailing slash allowed!
-		image: '/src/images/favicon.png', // Path to your image you placed in the 'static' folder
+		siteUrl: 'https://demetrio.dev',
+		image: '/src/images/favicon.png',
 		author: `Demetrio Alvarez`,
+		keywords: ['Demetrio', 'Alvarez', 'Portfolio', 'Developer', 'FrontEnd'],
 	},
 	plugins: [
 		`gatsby-plugin-react-helmet`,
