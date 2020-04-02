@@ -8,12 +8,12 @@
 		"tags": ["React", "Javascript", "ES6", "Gatbsy", "Git"]
 	},
 	{
-		"title": "My porfolio",
+		"title": "Porfolio",
 		"slug": "my-portofilio",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/portfolio",
 		"image": "./images/adopt-me.jpg",
-		"tags": ["React", "Gatbsy", "Javascript", "SEO", "CSS Grid", "Git"]
+		"tags": ["React", "Gatbsy", "PWA", "SEO", "Flexbox", "CSS Grid", "Git"]
 	},
 	{
 		"title": "Audio Visualizer & Oscilloscope",
@@ -29,7 +29,7 @@
 		"url": "https://catchoftheday.demetrio.dev/",
 		"git-url": "https://github.com/demetrio/catch-of-the-day",
 		"image": "./images/catch-of-the-day.jpg",
-		"tags": ["React", "Firebase", "OAuth", "Git"]
+		"tags": ["React", "Firebase", "OAuth", "Git", "ES6"]
 	},
 	{
 		"title": "Currency Converter",

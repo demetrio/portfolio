@@ -17,7 +17,10 @@ function SEO({ description, lang, meta, title }) {
 				site {
 					siteMetadata {
 						title
+						titleTemplate
 						description
+						url
+						image
 						author
 					}
 				}
@@ -41,7 +44,11 @@ function SEO({ description, lang, meta, title }) {
 				},
 				{
 					property: `og:title`,
-					content: title,
+					content: site.title,
+				},
+				{
+					property: 'og:image',
+					content: site.image,
 				},
 				{
 					property: `og:description`,
@@ -53,7 +60,7 @@ function SEO({ description, lang, meta, title }) {
 				},
 				{
 					name: `twitter:card`,
-					content: `summary`,
+					content: metaDescription,
 				},
 				{
 					name: `twitter:creator`,
@@ -75,7 +82,7 @@ function SEO({ description, lang, meta, title }) {
 SEO.defaultProps = {
 	lang: `en`,
 	meta: [],
-	description: `Demetrio Alvarez Website`,
+	description: `Demetrio Alvarez Portfolio`,
 };
 
 SEO.propTypes = {
