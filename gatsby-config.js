@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
 		title: `Demetrio Alvarez`,
-		titleTemplate: '%s · FrontEnd dev',
+		titleTemplate: 'FrontEnd dev',
 		description: `Welcome to my porfolio! Here you can find more info about me.`,
 		url: 'https://www.demetrio.dev', // No trailing slash allowed!
 		image: '/src/images/favicon.png', // Path to your image you placed in the 'static' folder
