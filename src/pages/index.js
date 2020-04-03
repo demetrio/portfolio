@@ -64,7 +64,7 @@ const Welcome = styled.h1`
 const IndexPage = () => {
 	return (
 		<Layout>
-			<SEO title="Home" />
+			<SEO title="Demetrio Alvarez - Front End Developer" />
 			<Welcome>
 				Hi! I'm Demetrio and I'm a Front End Developer. Here you can find out more <Link to="/about/">about me</Link>, send me{' '}
 				<a href="mailto:contact@demetrio.dev">an email</a>, see my <Link to="/projects/">portfolio</Link> and my code at{' '}

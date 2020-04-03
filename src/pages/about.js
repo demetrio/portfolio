@@ -35,7 +35,7 @@ const About = () => {
 
 	return (
 		<Layout>
-			<SEO title="Home" />
+			<SEO title="About me" />
 			<Welcome>About me</Welcome>
 			<p>
 				I have a powerful passion for UI & UX Design that together with my obsessive attention to detail makes me care for my work to the

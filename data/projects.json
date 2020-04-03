@@ -12,7 +12,7 @@
 		"slug": "my-portofilio",
 		"url": "https://demetrio.dev",
 		"git-url": "https://github.com/demetrio/portfolio",
-		"image": "./images/adopt-me.jpg",
+		"image": "./images/portfolio.jpg",
 		"tags": ["React", "Gatbsy", "PWA", "SEO", "Flexbox", "CSS Grid", "Git"]
 	},
 	{

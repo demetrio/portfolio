@@ -50,7 +50,7 @@ const Projects = () => {
 
 	return (
 		<Layout>
-			<SEO title="Projects" />
+			<SEO title="Portfolio" />
 			<Welcome>My Portfolio</Welcome>
 			<ListProjects>
 				{projects.map(({ node: project }) => {
