@@ -3,7 +3,7 @@ module.exports = {
 		title: `Demetrio Alvarez`,
 		description: `Welcome to my porfolio! Here you can find more info about me.`,
 		siteUrl: 'https://demetrio.dev',
-		image: '/src/images/favicon.png',
+		image: 'src/images/favicon.png',
 		author: `Demetrio Alvarez`,
 		keywords: ['Demetrio', 'Alvarez', 'Portfolio', 'Developer', 'FrontEnd'],
 	},
