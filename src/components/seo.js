@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import Logo from '../../data/images/logo.png';
 import { useStaticQuery, graphql } from 'gatsby';
 
 function SEO({ description, lang, meta, title, pathname }) {
@@ -14,7 +15,6 @@ function SEO({ description, lang, meta, title, pathname }) {
 						author
 						keywords
 						siteUrl
-						image
 					}
 				}
 			}
@@ -22,7 +22,6 @@ function SEO({ description, lang, meta, title, pathname }) {
 	);
 
 	const metaDescription = description || site.siteMetadata.description;
-	const image = site.siteMetadata.image;
 	const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null;
 
 	return (
@@ -65,7 +64,7 @@ function SEO({ description, lang, meta, title, pathname }) {
 				},
 				{
 					property: `og:image`,
-					content: image,
+					content: Logo,
 				},
 				{
 					name: `twitter:creator`,

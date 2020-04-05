@@ -3,7 +3,6 @@ module.exports = {
 		title: `Demetrio Alvarez`,
 		description: `Demetrio Alvarez - Front End Developer`,
 		siteUrl: 'https://demetrio.dev',
-		image: 'src/images/favicon.png',
 		author: `Demetrio Alvarez`,
 		keywords: ['Demetrio', 'Alvarez', 'Portfolio', 'Developer', 'FrontEnd'],
 	},
