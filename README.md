@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.demetrio.dev">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="Gatsby" src="https://i.imgur.com/Ip3K4xZ.jpg" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -8,7 +8,11 @@
 </h1>
 
 This website is my personal portfolio, which has been made using gatsby and the default web template.
+The main purpose of it is to have a portfolio that is as simple and straightforward as possible.
+
 _You can find more info about Gatsby here at the [official website](https://www.gatsbyjs.org)._
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2e704c6b-9636-48ee-b3d1-c971c7bbfcc1/deploy-status)](https://app.netlify.com/sites/dazzling-lamport-71b9fa/deploys)
 
 ## 🚀 Do you want to use it?
 
@@ -16,11 +20,9 @@ _You can find more info about Gatsby here at the [official website](https://www.
 
     Navigate into the site’s directory and start it up.
 
-    ````shell
+    ```shell
     gatsby develop
-    ```zzzz
-
-    ````
+    ```
 
 1.  **Open the source code and start editing!**
 
