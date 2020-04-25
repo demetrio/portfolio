@@ -32,8 +32,6 @@ _You can find more info about Gatsby here at the [official website](https://www.
 
     Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## 🧐 What's inside?
-
 ## 💫 Deploy
 
 This website has been deployed with Netlify.

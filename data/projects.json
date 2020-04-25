@@ -5,7 +5,7 @@
 		"url": "https://adopt.demetrio.dev",
 		"git-url": "https://github.com/demetrio/adopt-me",
 		"image": "./images/adopt-me.jpg",
-		"tags": ["React", "Javascript", "ES6", "Gatbsy", "Git"]
+		"tags": ["React", "Javascript", "ES6", "Gatbsy", "Git", "Testing"]
 	},
 	{
 		"title": "Porfolio",
@@ -24,6 +24,14 @@
 		"tags": ["Javascript", "ES6", "Parcel", "Git"]
 	},
 	{
+		"title": "Tic Tac Toe",
+		"slug": "tic-tac-toe",
+		"url": "https://tictactoe.demetrio.dev",
+		"git-url": "https://github.com/demetrio/Tic-tac-toe",
+		"image": "./images/tic-tac-toe.jpg",
+		"tags": ["React", "React Hooks", "Flexbox", "CSS Grid", "Git"]
+	},
+	{
 		"title": "Catch of the Day",
 		"slug": "catch-of-the-day",
 		"url": "https://catchoftheday.demetrio.dev/",
@@ -37,7 +45,23 @@
 		"url": "https://currency.demetrio.dev",
 		"git-url": "https://github.com/demetrio/currency-converter",
 		"image": "./images/currency-converter.jpg",
-		"tags": ["Javascript", "ES6", "Git"]
+		"tags": ["Javascript", "ES6", "APIs", "Git"]
+	},
+	{
+		"title": "Marketing Seo",
+		"slug": "marketing-seo",
+		"url": "https://seomarketing.demetrio.dev",
+		"git-url": "https://github.com/demetrio/marketing-seo",
+		"image": "./images/seo-marketing.jpg",
+		"tags": ["CSS3", "CSS Grid", "Flexbox", "Mobile First", "Git"]
+	},
+	{
+		"title": "Simple Blog",
+		"slug": "simpleblog",
+		"url": "https://simpleblog.demetrio.dev",
+		"git-url": "https://github.com/demetrio/simpleblog",
+		"image": "./images/simpleblog.jpg",
+		"tags": ["CSS3", "Flexbox", "Mobile First", "Git"]
 	},
 	{
 		"title": "Dad Jokes",
@@ -70,22 +94,6 @@
 		"git-url": "https://github.com/demetrio/javascript30",
 		"image": "./images/js30.jpg",
 		"tags": ["Javascript", "ES6", "CSS Grid", "Flexbox", "Git"]
-	},
-	{
-		"title": "Marketing Seo",
-		"slug": "marketing-seo",
-		"url": "https://seomarketing.demetrio.dev",
-		"git-url": "https://github.com/demetrio/marketing-seo",
-		"image": "./images/seo-marketing.jpg",
-		"tags": ["CSS3", "CSS Grid", "Flexbox", "Mobile First", "Git"]
-	},
-	{
-		"title": "Simple Blog",
-		"slug": "simpleblog",
-		"url": "https://simpleblog.demetrio.dev",
-		"git-url": "https://github.com/demetrio/simpleblog",
-		"image": "./images/simpleblog.jpg",
-		"tags": ["CSS3", "Flexbox", "Mobile First", "Git"]
 	},
 	{
 		"title": "Splash Page",
