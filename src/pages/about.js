@@ -28,8 +28,19 @@ const Info = styled.div`
 	}
 `;
 
+const SkillsTable = styled.p`
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 0.15fr 1fr;
+
+	span {
+		margin-left: 0.25em;
+	}
+`;
+
 const Title = styled.span`
 	font-weight: bold;
+	text-align: right;
 `;
 
 const JobTitle = styled.h3`
@@ -88,9 +99,9 @@ const About = () => {
 					{skillsData.map(({ node: skill }) => {
 						const { main, skills } = skill;
 						return (
-							<p key={main}>
-								<Title>{main}</Title>: <span key={skill}>{skills.join(', ')}.</span>
-							</p>
+							<SkillsTable key={main}>
+								<Title>{main}:</Title> <span key={skill}>{skills.join(', ')}.</span>
+							</SkillsTable>
 						);
 					})}
 				</div>
