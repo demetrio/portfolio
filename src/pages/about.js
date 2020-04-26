@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import dimensions from '../styles/dimensions';
 
 import styled from '@emotion/styled';
 
@@ -17,6 +18,29 @@ const Subtitle = styled.h2`
 	margin: 1.45rem 0;
 `;
 
+const Info = styled.div`
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1em;
+
+	@media (max-width: ${dimensions.maxwidthTablet}px) {
+		grid-template-columns: 1fr;
+	}
+`;
+
+const Title = styled.span`
+	font-weight: bold;
+`;
+
+const JobTitle = styled.h3`
+	margin: 0;
+`;
+
+const Date = styled.h4`
+	color: #999999;
+	font-weight: 300;
+`;
+
 const About = () => {
 	const data = useStaticQuery(graphql`
 		{
@@ -28,10 +52,21 @@ const About = () => {
 					}
 				}
 			}
+
+			allJobsJson {
+				edges {
+					node {
+						company
+						dates
+						description
+					}
+				}
+			}
 		}
 	`);
 
-	const skills = data.allSkillsJson.edges;
+	const skillsData = data.allSkillsJson.edges;
+	const jobsData = data.allJobsJson.edges;
 
 	return (
 		<Layout>
@@ -47,15 +82,32 @@ const About = () => {
 			</p>
 			<p>Apart from this, I have a great enthusiasm for the audiovisual world, video games, show business and communication.</p>
 			<p>I’m focusing on improving my knowledge of React, GraphQL and Accessibility, among other technologies.</p>
-			<Subtitle>Skills</Subtitle>
-			{skills.map(({ node: skill }) => {
-				const { main, skills } = skill;
-				return (
-					<p key={main}>
-						{main}: <span key={skill}>{skills.join(', ')}.</span>
-					</p>
-				);
-			})}
+			<Info>
+				<div>
+					<Subtitle>Skills</Subtitle>
+					{skillsData.map(({ node: skill }) => {
+						const { main, skills } = skill;
+						return (
+							<p key={main}>
+								<Title>{main}</Title>: <span key={skill}>{skills.join(', ')}.</span>
+							</p>
+						);
+					})}
+				</div>
+				<div>
+					<Subtitle>Currently working at</Subtitle>
+					{jobsData.map(({ node: job }) => {
+						const { company, dates, description } = job;
+						return (
+							<>
+								<JobTitle>{company}</JobTitle>
+								<Date>{dates}</Date>
+								<p>{description}</p>
+							</>
+						);
+					})}
+				</div>
+			</Info>
 		</Layout>
 	);
 };

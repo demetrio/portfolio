@@ -35,6 +35,13 @@ module.exports = {
 			},
 		},
 		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `jobs`,
+				path: `./data`,
+			},
+		},
+		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
 				name: `Demetrio.dev`,
