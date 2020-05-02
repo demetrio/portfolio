@@ -16,7 +16,7 @@ const colors = {
 	orange200: '#FDE1D9',
 
 	pink600: '#E683E6',
-	pink500: '#FF91FF',
+	pink500: '#EC53EA',
 	pink200: '#FDE0FD',
 
 	purple800: '#673AB7',
