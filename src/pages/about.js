@@ -1,11 +1,11 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import styled from '@emotion/styled';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import dimensions from '../styles/dimensions';
-
-import styled from '@emotion/styled';
+import colors from '../styles/colors';
 
 const Welcome = styled.h1`
 	font-size: 2.8em;
@@ -48,7 +48,7 @@ const JobTitle = styled.h3`
 `;
 
 const Date = styled.h4`
-	color: #999999;
+	color: ${colors.gray800};
 	font-weight: 300;
 `;
 
