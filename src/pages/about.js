@@ -1,56 +1,10 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import styled from '@emotion/styled';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import dimensions from '../styles/dimensions';
-import colors from '../styles/colors';
 
-const Welcome = styled.h1`
-	font-size: 2.8em;
-	line-height: 1.45;
-	font-weight: 800;
-`;
-
-const Subtitle = styled.h2`
-	border-bottom: 1px solid black;
-	margin: 1.45rem 0;
-`;
-
-const Info = styled.div`
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 1em;
-
-	@media (max-width: ${dimensions.maxwidthTablet}px) {
-		grid-template-columns: 1fr;
-	}
-`;
-
-const SkillsTable = styled.p`
-	display: grid;
-	grid-auto-flow: column;
-	grid-template-columns: 0.15fr 1fr;
-
-	span {
-		margin-left: 0.25em;
-	}
-`;
-
-const Title = styled.span`
-	font-weight: bold;
-	text-align: right;
-`;
-
-const JobTitle = styled.h3`
-	margin: 0;
-`;
-
-const Date = styled.h4`
-	color: ${colors.gray800};
-	font-weight: 300;
-`;
+import { Welcome, Subtitle, Info, SkillsTable, Title, JobTitle, SubDate } from './about.styles';
 
 const About = () => {
 	const data = useStaticQuery(graphql`
@@ -112,7 +66,7 @@ const About = () => {
 						return (
 							<>
 								<JobTitle>{company}</JobTitle>
-								<Date>{dates}</Date>
+								<SubDate>{dates}</SubDate>
 								<p>{description}</p>
 							</>
 						);
