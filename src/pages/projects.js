@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import ProjectCard from '../components/project-card';
 import SEO from '../components/seo';
 
-import { Welcome, ListProjects } from './projects.styles';
+import { Welcome, ListProjects } from '../styles/projects.styles';
 
 const Projects = () => {
 	const data = useStaticQuery(graphql`

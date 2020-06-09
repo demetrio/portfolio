@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
-import dimensions from '../styles/dimensions';
-import colors from '../styles/colors';
+import dimensions from './dimensions';
+import colors from './colors';
 
 export const Welcome = styled.h1`
 	font-size: 2.8em;

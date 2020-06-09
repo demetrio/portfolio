@@ -1,5 +1,5 @@
-import dimensions from '../styles/dimensions';
-import colors from '../styles/colors';
+import dimensions from './dimensions';
+import colors from './colors';
 import styled from '@emotion/styled';
 
 export const Welcome = styled.h1`

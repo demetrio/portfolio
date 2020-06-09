@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-import { Welcome, Subtitle, Info, SkillsTable, Title, JobTitle, SubDate } from './about.styles';
+import { Welcome, Subtitle, Info, SkillsTable, Title, JobTitle, SubDate } from '../styles/about.styles.js';
 
 const About = () => {
 	const data = useStaticQuery(graphql`
