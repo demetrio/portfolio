@@ -1,11 +1,11 @@
 [
 	{
-		"title": "Adopt Me",
-		"slug": "adopt-me",
-		"url": "https://adopt.demetrio.dev",
-		"git-url": "https://github.com/demetrio/adopt-me",
-		"image": "./images/adopt-me.jpg",
-		"tags": ["React", "Javascript", "ES6", "Gatbsy", "Git", "Testing"]
+		"title": "Covid19 Tracker",
+		"slug": "covid-track",
+		"url": "https://covid.demetrio.dev",
+		"git-url": "https://github.com/demetrio/covid-track",
+		"image": "./images/covid-track.jpg",
+		"tags": ["React", "React Hooks", "React Charts 2", "Material-UI", "ES6", "APIs", "Flexbox", "Git"]
 	},
 	{
 		"title": "Porfolio",
@@ -30,6 +30,14 @@
 		"git-url": "https://github.com/demetrio/Tic-tac-toe",
 		"image": "./images/tic-tac-toe.jpg",
 		"tags": ["React", "React Hooks", "Flexbox", "CSS Grid", "Git"]
+	},
+	{
+		"title": "Adopt Me",
+		"slug": "adopt-me",
+		"url": "https://adopt.demetrio.dev",
+		"git-url": "https://github.com/demetrio/adopt-me",
+		"image": "./images/adopt-me.jpg",
+		"tags": ["React", "Javascript", "ES6", "Gatbsy", "Git", "Testing"]
 	},
 	{
 		"title": "Catch of the Day",
