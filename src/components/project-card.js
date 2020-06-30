@@ -8,7 +8,7 @@ import { Project, ProjectInfo, TagContainer, Url, Tag, Button } from './project-
 const ProjectCard = ({ url, title, imageData, git_url, tags }) => (
 	<Project>
 		<div className="project-image">
-			<Image fluid={imageData} alt={title} />
+			<Image style={{ maxHeight: '230px' }} fluid={imageData} alt={title} />
 		</div>
 		<ProjectInfo>
 			<h3>{title}</h3>
