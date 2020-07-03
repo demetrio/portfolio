@@ -5,14 +5,18 @@
 	},
 	{
 		"main": "CSS",
-		"skills": ["CSS3", "Bootstrap", "Sass", "Flexbox", "CSS Grid", "BEM"]
+		"skills": ["CSS3", "Sass", "Flexbox", "CSS Grid", "BEM", "Bootstrap", "Material UI"]
 	},
 	{
 		"main": "JS",
-		"skills": ["ES6+", "React", "Gatsby"]
+		"skills": ["ES6+", "GraphQL"]
+	},
+	{
+		"main": "React",
+		"skills": ["React", "Gatsby", "Styled Components", "Emotion"]
 	},
 	{
 		"main": "Other",
-		"skills": ["Git", "ESLint", "Prettier", "Parcel", "Adobe Photoshop", "Figma"]
+		"skills": ["Git", "ESLint", "Prettier", "Parcel", "Adobe Photoshop", "Figma", "Netlify"]
 	}
 ]
