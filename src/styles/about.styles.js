@@ -24,19 +24,19 @@ export const Info = styled.div`
 	}
 `;
 
-export const SkillsTable = styled.p`
+export const SkillsTable = styled.div`
 	display: grid;
-	grid-auto-flow: column;
-	grid-template-columns: 0.15fr 1fr;
-
-	span {
-		margin-left: 0.25em;
-	}
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 1em;
 `;
 
-export const Title = styled.span`
+export const Title = styled.h4`
 	font-weight: bold;
-	text-align: right;
+	margin: 0;
+`;
+
+export const Skills = styled.span`
+	margin: 0;
 `;
 
 export const JobTitle = styled.h3`

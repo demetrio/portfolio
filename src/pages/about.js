@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-import { Welcome, Subtitle, Info, SkillsTable, Title, JobTitle, SubDate } from '../styles/about.styles.js';
+import { Welcome, Subtitle, Info, SkillsTable, Title, JobTitle, SubDate, Skills } from '../styles/about.styles.js';
 
 const About = () => {
 	const data = useStaticQuery(graphql`
@@ -50,25 +50,28 @@ const About = () => {
 			<Info>
 				<div>
 					<Subtitle>Skills</Subtitle>
-					{skillsData.map(({ node: skill }) => {
-						const { main, skills } = skill;
-						return (
-							<SkillsTable key={main}>
-								<Title>{main}:</Title> <span key={skill}>{skills.join(', ')}.</span>
-							</SkillsTable>
-						);
-					})}
+					<SkillsTable>
+						{skillsData.map(({ node: skill }) => {
+							const { main, skills } = skill;
+							return (
+								<div key={`key-${main}`}>
+									<Title>{main}</Title>
+									<Skills key={skill}>{skills.join(', ')}.</Skills>
+								</div>
+							);
+						})}
+					</SkillsTable>
 				</div>
 				<div>
 					<Subtitle>Currently working at</Subtitle>
 					{jobsData.map(({ node: job }) => {
 						const { company, dates, description } = job;
 						return (
-							<>
+							<div key={`key-${company}`}>
 								<JobTitle>{company}</JobTitle>
 								<SubDate>{dates}</SubDate>
 								<p>{description}</p>
-							</>
+							</div>
 						);
 					})}
 				</div>
