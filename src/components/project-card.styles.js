@@ -14,6 +14,7 @@ export const Project = styled.div`
 		border-bottom: 7px solid ${colors.purple800};
 	}
 `;
+
 export const ProjectInfo = styled.div`
 	padding: 1em;
 	h3 {
@@ -35,7 +36,6 @@ export const Url = styled.div`
 `;
 
 export const Tag = styled.span`
-	font-family: Roboto, -apple-system, Helvetica Neue, sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -45,7 +45,6 @@ export const Tag = styled.span`
 `;
 
 export const Button = styled.a`
-	font-family: Roboto, -apple-system, Helvetica Neue, sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;

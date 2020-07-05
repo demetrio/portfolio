@@ -6,7 +6,6 @@ const Help = () => {
 	const label = ` ${help % 2 === 0 ? '🙂' : '🙃'} Hey! You clicked ${help} ${help === 1 ? 'time' : 'times'}!!`;
 
 	const HelpButton = styled.button`
-		font-family: Roboto, -apple-system, Helvetica Neue, sans-serif;
 		background: rebeccapurple;
 		border: none;
 		color: white;
