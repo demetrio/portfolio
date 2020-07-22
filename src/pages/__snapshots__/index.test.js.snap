@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index renders correctly 1`] = `
+<div
+  className="css-14e7r5m"
+>
+  <header
+    className="css-hnjfqn"
+  >
+    <a
+      className="title css-1dtxhj1"
+      fontWeight="bold"
+      href="/"
+    >
+      Demetrio Alvarez
+    </a>
+    <a
+      className="css-1ed1fe6"
+      href="/"
+    >
+      <img
+        alt="avatar"
+        className="logo"
+        src="test-file-stub"
+      />
+    </a>
+    <nav
+      css={
+        Object {
+          "map": undefined,
+          "name": "1lwoze5",
+          "next": undefined,
+          "styles": "
+				margin-top: 0;
+			",
+          "toString": [Function],
+        }
+      }
+    >
+      <a
+        className="css-6uh4pm"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        className="css-6uh4pm"
+        href="/about/"
+      >
+        About
+      </a>
+      <a
+        className="css-6uh4pm"
+        href="/projects/"
+      >
+        Portfolio
+      </a>
+    </nav>
+  </header>
+  <div
+    className="css-1kdo87l"
+  >
+    <main>
+      <h1
+        className="css-1utp280"
+      >
+        Hi! I'm Demetrio and I'm a Front End Developer. Here you can find out more 
+        <a
+          href="/about/"
+        >
+          about me
+        </a>
+        , send me
+         
+        <a
+          href="mailto:contact@demetrio.dev"
+        >
+          an email
+        </a>
+        , see my 
+        <a
+          href="/projects/"
+        >
+          portfolio
+        </a>
+         and my code at
+         
+        <a
+          href="https://github.demetrio.dev"
+        >
+          Github
+        </a>
+         or add me to 
+        <a
+          href="https://linkedin.demetrio.dev"
+        >
+          LinkedIn
+        </a>
+        .
+      </h1>
+    </main>
+  </div>
+</div>
+`;

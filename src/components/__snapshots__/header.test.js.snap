@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="css-hnjfqn"
+>
+  <a
+    className="title css-1dtxhj1"
+    fontWeight="bold"
+    href="/"
+  >
+    Default Starter
+  </a>
+  <a
+    className="css-1ed1fe6"
+    href="/"
+  >
+    <img
+      alt="avatar"
+      className="logo"
+      src="test-file-stub"
+    />
+  </a>
+  <nav
+    css={
+      Object {
+        "map": undefined,
+        "name": "1lwoze5",
+        "next": undefined,
+        "styles": "
+				margin-top: 0;
+			",
+        "toString": [Function],
+      }
+    }
+  >
+    <a
+      className="css-6uh4pm"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      className="css-6uh4pm"
+      href="/about/"
+    >
+      About
+    </a>
+    <a
+      className="css-6uh4pm"
+      href="/projects/"
+    >
+      Portfolio
+    </a>
+  </nav>
+</header>
+`;
