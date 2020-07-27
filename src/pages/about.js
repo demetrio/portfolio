@@ -38,15 +38,16 @@ const About = () => {
 			<SEO title="About me" />
 			<Welcome>About me</Welcome>
 			<p>
-				I have a powerful passion for UI & UX Design that together with my obsessive attention to detail makes me care for my work to the
-				fullest. In my free time, I love to search about web development and look at other people’s ideas.
+				I have a powerful passion for UI & UX with a strong attention to detail and a focus on accessible, responsive design. I take pride
+				in maintaining a consistently high bar of quality.
 			</p>
 			<p>
-				Whenever I see an ingenious design or project, I need to know how it was achieved, and if I discover a fresh technology, I try to
-				learn it and think of a concept that can fit with it and share this with my friends.
+				My main goal is to approach every day not only with my experience but also with an open mind for the new tools and frameworks that
+				push the web forward. Continuous learning allows me to be more creative when implementing solutions, and I am motivated to share
+				what I learn with my teams.
 			</p>
-			<p>Apart from this, I have a great enthusiasm for the audiovisual world, video games, show business and communication.</p>
-			<p>I’m focusing on improving my knowledge of React, GraphQL and Accessibility, among other technologies.</p>
+			<p>At the moment, I’m focusing on sharpening my knowledge of React, GraphQL, and other frontend-related technologies.</p>
+			<p>Adjacent to my work, I have a great enthusiasm for the audiovisual world, video games, communication and travel.</p>
 			<Info>
 				<div>
 					<Subtitle>Skills</Subtitle>
