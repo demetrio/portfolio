@@ -1,11 +1,11 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
 import Help from './help';
+import { render } from '@testing-library/react';
 
-describe('Header', () => {
+describe('Help', () => {
 	it('renders correctly', () => {
-		const tree = renderer.create(<Help />).toJSON();
-		expect(tree).toMatchSnapshot();
-		expect(tree).toBeDefined();
+		const { container } = render(<Help />);
+		expect(container).toMatchSnapshot();
+		expect(container).toBeDefined();
 	});
 });

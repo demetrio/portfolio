@@ -1,10 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header renders correctly 1`] = `
-<button
-  className="css-8ptk1h"
-  onClick={[Function]}
->
-   🙂 Hey! You clicked 0 times!!
-</button>
+exports[`Help renders correctly 1`] = `
+<div>
+  <button
+    class="css-8ptk1h"
+  >
+     🙂 Hey! You clicked 0 times!!
+  </button>
+</div>
 `;
