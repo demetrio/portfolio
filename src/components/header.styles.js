@@ -6,13 +6,17 @@ import dimensions from '../styles/dimensions';
 export const HeaderContainer = styled.header`
 	display: flex;
 	justify-content: space-between;
-	padding: 1.25em 0 1.25em;
+	padding: 1.5em 0 1.5em;
 
 	@media (max-width: ${dimensions.maxwidthMobile}px) {
 		.title {
 			display: none;
 		}
 	}
+`;
+
+export const Nav = styled.nav`
+	margin-top: 0;
 `;
 
 export const LogoNavLink = styled(Link)`
@@ -48,5 +52,20 @@ export const NavLink = styled(Link)`
 	}
 	&:last-of-type {
 		margin-right: 0;
+	}
+`;
+
+export const MobileNav = styled.div`
+	font-size: 16px;
+	line-height: 1.25;
+	display: flex;
+	align-items: center;
+	.mobile-nav {
+		display: none;
+		visibility: hidden;
+		@media (min-width: ${dimensions.maxwidthMobile}px) {
+			display: block;
+			visibility: visible;
+		}
 	}
 `;

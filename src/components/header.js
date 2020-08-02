@@ -1,32 +1,27 @@
 import React from 'react';
-import { css } from '@emotion/core';
 import PropTypes from 'prop-types';
 import logo from '../images/favicon.png';
-import { HeaderContainer, LogoNavLink, NavLink } from './header.styles';
+import { HeaderContainer, LogoNavLink, Nav, NavLink } from './header.styles';
 
 const Header = ({ siteTitle }) => (
 	<HeaderContainer>
-		<NavLink to="/" className="title" fontWeight="bold">
+		<NavLink to="/" className="title" fontWeight="bold" aria-label="Go to Main Page">
 			{siteTitle}
 		</NavLink>
 		<LogoNavLink to="/">
-			<img src={logo} className="logo" alt="avatar" />
+			<img src={logo} className="logo" alt="avatar" aria-label="Demetrio Alvarez Avatar" />
 		</LogoNavLink>
-		<nav
-			css={css`
-				margin-top: 0;
-			`}
-		>
-			<NavLink to="/" activeClassName="current-page">
+		<Nav>
+			<NavLink to="/" activeClassName="current-page" aria-label="Go to Main Page">
 				Home
 			</NavLink>
-			<NavLink to="/about/" activeClassName="current-page">
+			<NavLink to="/about/" activeClassName="current-page" aria-label="Go to About Page">
 				About
 			</NavLink>
-			<NavLink to="/projects/" activeClassName="current-page">
+			<NavLink to="/projects/" activeClassName="current-page" aria-label="Go to Projects Page">
 				Portfolio
 			</NavLink>
-		</nav>
+		</Nav>
 	</HeaderContainer>
 );
 
