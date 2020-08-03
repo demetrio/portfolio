@@ -2,17 +2,14 @@ import styled from '@emotion/styled';
 import colors from '../styles/colors';
 
 export const Project = styled.div`
-	* {
-		box-sizing: border-box;
-	}
-
+	box-sizing: border-box;
 	box-shadow: 0 3px 15px rgba(51, 51, 51, 0.2);
 	border-radius: 10px;
 	overflow: auto;
+`;
 
-	.project-image {
-		border-bottom: 7px solid ${colors.purple800};
-	}
+export const ProjectImage = styled.div`
+	border-bottom: 7px solid ${colors.purple800};
 `;
 
 export const ProjectInfo = styled.div`
