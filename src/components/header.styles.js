@@ -7,11 +7,31 @@ export const HeaderContainer = styled.header`
 	display: flex;
 	justify-content: space-between;
 	padding: 1.5em 0 1.5em;
+`;
 
-	@media (max-width: ${dimensions.maxwidthMobile}px) {
-		.title {
-			display: none;
-		}
+export const NavLink = styled(Link)`
+	color: ${colors.black600};
+	font-size: 1rem;
+	font-family: Roboto, -apple-system, Helvetica Neue, sans-serif;
+	font-weight: ${props => props.fontWeight || 'normal'};
+	line-height: 1;
+	margin: 0 0.5rem 0 0;
+	text-decoration: none;
+	padding: 0.25rem 0 0.25rem;
+
+	&.current-page {
+		border-bottom: 2px solid ${colors.black600};
+	}
+	&:last-of-type {
+		margin-right: 0;
+	}
+`;
+
+export const NameNavLink = styled(NavLink)`
+	display: none;
+
+	@media (min-width: ${dimensions.maxwidthMobile}px) {
+		display: inline;
 	}
 `;
 
@@ -34,24 +54,6 @@ export const LogoNavLink = styled(Link)`
 
 	@media (min-width: ${dimensions.maxwidthMobile}px) {
 		display: none;
-	}
-`;
-
-export const NavLink = styled(Link)`
-	color: ${colors.black600};
-	font-size: 1rem;
-	font-family: Roboto, -apple-system, Helvetica Neue, sans-serif;
-	font-weight: ${props => props.fontWeight || 'normal'};
-	line-height: 1;
-	margin: 0 0.5rem 0 0;
-	text-decoration: none;
-	padding: 0.25rem 0 0.25rem;
-
-	&.current-page {
-		border-bottom: 2px solid ${colors.black600};
-	}
-	&:last-of-type {
-		margin-right: 0;
 	}
 `;
 

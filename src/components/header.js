@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import logo from '../images/favicon.png';
-import { HeaderContainer, LogoNavLink, Nav, NavLink } from './header.styles';
+import { HeaderContainer, LogoNavLink, NameNavLink, Nav, NavLink } from './header.styles';
 
 const Header = ({ siteTitle }) => (
 	<HeaderContainer>
-		<NavLink to="/" className="title" fontWeight="bold" aria-label="Go to Main Page">
+		<NameNavLink to="/" fontWeight="bold" aria-label="Go to Main Page">
 			{siteTitle}
-		</NavLink>
+		</NameNavLink>
 		<LogoNavLink to="/">
 			<img src={logo} className="logo" alt="avatar" aria-label="Demetrio Alvarez Avatar" />
 		</LogoNavLink>
