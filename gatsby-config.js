@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
 		title: `Demetrio Alvarez`,
-		description: `Demetrio Alvarez - Front End Developer`,
+		description: `Front End Developer`,
 		siteUrl: 'https://demetrio.dev',
 		author: `Demetrio Alvarez`,
 		keywords: ['Demetrio', 'Alvarez', 'Portfolio', 'Developer', 'FrontEnd'],
