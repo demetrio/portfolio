@@ -6,10 +6,27 @@ import dimensions from '../styles/dimensions';
 export const HeaderContainer = styled.header`
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding: 1.5em 0 1.5em;
 `;
 
+export const LogoContainer = styled(Link)`
+	height: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+`;
+
+export const NameNavLink = styled.div`
+	margin-left: 10px;
+	display: inline;
+	color: ${colors.black600};
+`;
+
 export const NavLink = styled(Link)`
+	display: none;
+
 	color: ${colors.black600};
 	font-size: 1rem;
 	font-family: Roboto, -apple-system, Helvetica Neue, sans-serif;
@@ -25,10 +42,6 @@ export const NavLink = styled(Link)`
 	&:last-of-type {
 		margin-right: 0;
 	}
-`;
-
-export const NameNavLink = styled(NavLink)`
-	display: none;
 
 	@media (min-width: ${dimensions.maxwidthMobile}px) {
 		display: inline;
@@ -47,27 +60,9 @@ export const LogoNavLink = styled(Link)`
 	box-shadow: 0 0 0 0.125rem ${colors.purple200};
 	border-radius: 50%;
 	padding: 0;
+	display: inline-block;
 
 	.logo {
-		width: 100%;
-	}
-
-	@media (min-width: ${dimensions.maxwidthMobile}px) {
-		display: none;
-	}
-`;
-
-export const MobileNav = styled.div`
-	font-size: 16px;
-	line-height: 1.25;
-	display: flex;
-	align-items: center;
-	.mobile-nav {
-		display: none;
-		visibility: hidden;
-		@media (min-width: ${dimensions.maxwidthMobile}px) {
-			display: block;
-			visibility: visible;
-		}
+		width: auto;
 	}
 `;
