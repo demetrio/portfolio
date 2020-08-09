@@ -18,6 +18,21 @@ export const LogoContainer = styled(Link)`
 	text-decoration: none;
 `;
 
+export const LogoNavLink = styled.div`
+	width: 2rem;
+	height: 2rem;
+	border: 0.125rem solid white;
+	overflow: hidden;
+	box-shadow: 0 0 0 0.125rem ${colors.purple200};
+	border-radius: 50%;
+	padding: 0;
+	display: inline-block;
+
+	.logo {
+		width: auto;
+	}
+`;
+
 export const NameNavLink = styled.div`
 	margin-left: 10px;
 	display: inline;
@@ -50,19 +65,4 @@ export const NavLink = styled(Link)`
 
 export const Nav = styled.nav`
 	margin-top: 0;
-`;
-
-export const LogoNavLink = styled(Link)`
-	width: 2rem;
-	height: 2rem;
-	border: 0.125rem solid white;
-	overflow: hidden;
-	box-shadow: 0 0 0 0.125rem ${colors.purple200};
-	border-radius: 50%;
-	padding: 0;
-	display: inline-block;
-
-	.logo {
-		width: auto;
-	}
 `;
