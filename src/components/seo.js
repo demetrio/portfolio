@@ -79,6 +79,10 @@ function SEO({ description, lang, meta, title, pathname }) {
 					content: title,
 				},
 				{
+					name: `twitter:image`,
+					content: Logo,
+				},
+				{
 					name: `twitter:description`,
 					content: metaDescription,
 				},
