@@ -19,12 +19,14 @@ const Layout = ({ children }) => {
 	`);
 
 	return (
-		<MainContainer>
+		<>
 			<Header siteTitle={data.site.siteMetadata.title} />
-			<Hero>
-				<main>{children}</main>
-			</Hero>
-		</MainContainer>
+			<MainContainer>
+				<Hero>
+					<main>{children}</main>
+				</Hero>
+			</MainContainer>
+		</>
 	);
 };
 
