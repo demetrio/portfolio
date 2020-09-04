@@ -13,11 +13,11 @@ const ProjectCard = ({ url, title, imageData, git_url, tags }) => (
 		<ProjectInfo>
 			<h3>{title}</h3>
 			<Url>
-				<Button href={url}>
+				<Button href={url} aria-label={`Link to the website of ${title} project`}>
 					<span>Website</span>
 					<FiExternalLink />
 				</Button>
-				<Button href={git_url}>
+				<Button href={git_url} aria-label={`Link to the repository of ${title} project`}>
 					<span>Repository</span>
 					<FaGithub />
 				</Button>
