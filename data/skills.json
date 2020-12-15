@@ -9,14 +9,29 @@
 	},
 	{
 		"main": "JS",
-		"skills": ["ES6+", "GraphQL"]
+		"skills": ["ES6+", "JQuery", "TypeScript", "GraphQL", "NodeJS", "Express", "Jest", "ESLint"]
 	},
 	{
 		"main": "React",
-		"skills": ["React", "Gatsby", "Styled Components", "Emotion"]
+		"skills": ["React", "React Router", "Redux", "React Testing Library", "Gatsby", "Styled Components", "Emotion"]
 	},
 	{
-		"main": "Other",
-		"skills": ["Git", "ESLint", "Prettier", "Parcel", "Adobe Photoshop", "Figma", "Netlify"]
+		"main": "Tools",
+		"skills": [
+			"Git",
+			"GitHub Actions",
+			"Netlify",
+			"Prettier",
+			"Parcel",
+			"Adobe Photoshop",
+			"Figma",
+			"SoapUI",
+			"Postman",
+			"Google Analytics"
+		]
+	},
+	{
+		"main": "Others",
+		"skills": ["Java", "JAX-WS", "Drools", "JUnit", "Selenium", "Mockito", "MongoDB", "MySQL", "REST & GraphQL API"]
 	}
 ]
