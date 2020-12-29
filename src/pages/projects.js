@@ -7,44 +7,53 @@ import SEO from '../components/seo';
 import { Welcome, ListProjects } from '../styles/projects.styles';
 
 const Projects = () => {
-	const data = useStaticQuery(graphql`
-		{
-			allProjectsJson {
-				edges {
-					node {
-						id
-						title
-						url
-						git_url
-						tags
-						image {
-							childImageSharp {
-								fluid {
-									...GatsbyImageSharpFluid
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	`);
+  const data = useStaticQuery(graphql`
+    {
+      allProjectsJson {
+        edges {
+          node {
+            id
+            title
+            url
+            git_url
+            tags
+            image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
-	const projects = data.allProjectsJson.edges;
+  const projects = data.allProjectsJson.edges;
 
-	return (
-		<Layout>
-			<SEO title="Portfolio" />
-			<Welcome>My Portfolio</Welcome>
-			<ListProjects>
-				{projects.map(({ node: project }) => {
-					const { id, title, url, git_url, tags } = project;
-					const imageData = project.image.childImageSharp.fluid;
-					return <ProjectCard key={id} title={title} imageData={imageData} url={url} git_url={git_url} tags={tags} />;
-				})}
-			</ListProjects>
-		</Layout>
-	);
+  return (
+    <Layout>
+      <SEO title="Portfolio" />
+      <Welcome>My Portfolio</Welcome>
+      <ListProjects>
+        {projects.map(({ node: project }) => {
+          const { id, title, url, git_url, tags } = project;
+          const imageData = project.image.childImageSharp.fluid;
+          return (
+            <ProjectCard
+              key={id}
+              title={title}
+              imageData={imageData}
+              url={url}
+              git_url={git_url}
+              tags={tags}
+            />
+          );
+        })}
+      </ListProjects>
+    </Layout>
+  );
 };
 
 export default Projects;

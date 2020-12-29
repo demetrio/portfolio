@@ -1,114 +1,132 @@
 [
-	{
-		"title": "Covid19 Tracker",
-		"slug": "covid-track",
-		"url": "https://covid.demetrio.dev",
-		"git-url": "https://github.com/demetrio/covid-track",
-		"image": "./images/covid-track.jpg",
-		"tags": ["React", "React Hooks", "React Charts 2", "Material-UI", "ES6", "APIs", "Flexbox", "Git"]
-	},
-	{
-		"title": "Portfolio",
-		"slug": "my-portofilio",
-		"url": "https://demetrio.dev",
-		"git-url": "https://github.com/demetrio/portfolio",
-		"image": "./images/portfolio.jpg",
-		"tags": ["React", "Gatbsy", "PWA", "SEO", "Flexbox", "CSS Grid", "Git"]
-	},
-	{
-		"title": "Audio Visualizer & Oscilloscope",
-		"slug": "Audio-Visualizer-Oscilloscope",
-		"url": "https://oscilloscope.demetrio.dev",
-		"git-url": "https://github.com/demetrio/Audio-Visualizer-Oscilloscope",
-		"image": "./images/audio-visualizer.jpg",
-		"tags": ["Javascript", "ES6", "Parcel", "Git"]
-	},
-	{
-		"title": "Tic Tac Toe",
-		"slug": "tic-tac-toe",
-		"url": "https://tictactoe.demetrio.dev",
-		"git-url": "https://github.com/demetrio/Tic-tac-toe",
-		"image": "./images/tic-tac-toe.jpg",
-		"tags": ["React", "React Hooks", "Flexbox", "CSS Grid", "Git"]
-	},
-	{
-		"title": "Adopt Me",
-		"slug": "adopt-me",
-		"url": "https://adopt.demetrio.dev",
-		"git-url": "https://github.com/demetrio/adopt-me",
-		"image": "./images/adopt-me.jpg",
-		"tags": ["React", "Javascript", "ES6", "Gatbsy", "Git", "Testing"]
-	},
-	{
-		"title": "Catch of the Day",
-		"slug": "catch-of-the-day",
-		"url": "https://catchoftheday.demetrio.dev/",
-		"git-url": "https://github.com/demetrio/catch-of-the-day",
-		"image": "./images/catch-of-the-day.jpg",
-		"tags": ["React", "Firebase", "OAuth", "Git", "ES6"]
-	},
-	{
-		"title": "Currency Converter",
-		"slug": "currency-converter",
-		"url": "https://currency.demetrio.dev",
-		"git-url": "https://github.com/demetrio/currency-converter",
-		"image": "./images/currency-converter.jpg",
-		"tags": ["Javascript", "ES6", "APIs", "Git"]
-	},
-	{
-		"title": "Marketing Seo",
-		"slug": "marketing-seo",
-		"url": "https://seomarketing.demetrio.dev",
-		"git-url": "https://github.com/demetrio/marketing-seo",
-		"image": "./images/seo-marketing.jpg",
-		"tags": ["CSS3", "CSS Grid", "Flexbox", "Mobile First", "Git"]
-	},
-	{
-		"title": "Simple Blog",
-		"slug": "simpleblog",
-		"url": "https://simpleblog.demetrio.dev",
-		"git-url": "https://github.com/demetrio/simpleblog",
-		"image": "./images/simpleblog.jpg",
-		"tags": ["CSS3", "Flexbox", "Mobile First", "Git"]
-	},
-	{
-		"title": "Dad Jokes",
-		"slug": "dad-jokes",
-		"url": "https://dadjokes.demetrio.dev",
-		"git-url": "https://github.com/demetrio/dad-jokes",
-		"image": "./images/dad-jokes.jpg",
-		"tags": ["Javascript", "Parcel", "APIs", "ES6", "Git"]
-	},
-	{
-		"title": "Etch-a-sketch!",
-		"slug": "etch-a-sketch",
-		"url": "https://sketch.demetrio.dev/",
-		"git-url": "https://github.com/demetrio/etch-a-sketch",
-		"image": "./images/etch-a-sketch.jpg",
-		"tags": ["Javascript", "ES6", "Canvas", "Git"]
-	},
-	{
-		"title": "Gatsby Blog",
-		"slug": "gatsby-example-blog",
-		"url": "https://gatsbyblog.demetrio.dev",
-		"git-url": "https://github.com/demetrio/gatsby-example-blog",
-		"image": "./images/gatsby-blog.jpg",
-		"tags": ["Gatbsy", "React", "Javascript", "ES6", "APIs", "CSS Grid", "Flexbox", "Git"]
-	},
-	{
-		"title": "Javascript 30",
-		"slug": "javascript30",
-		"url": "https://js30.demetrio.dev",
-		"git-url": "https://github.com/demetrio/javascript30",
-		"image": "./images/js30.jpg",
-		"tags": ["Javascript", "ES6", "CSS Grid", "Flexbox", "Git"]
-	},
-	{
-		"title": "Splash Page",
-		"slug": "splashpage",
-		"url": "https://splash.demetrio.dev",
-		"git-url": "https://github.com/demetrio/splashpage",
-		"image": "./images/splashpage.jpg",
-		"tags": ["CSS3", "Flexbox", "Mobile First", "Git"]
-	}
+  {
+    "title": "Covid19 Tracker",
+    "slug": "covid-track",
+    "url": "https://covid.demetrio.dev",
+    "git-url": "https://github.com/demetrio/covid-track",
+    "image": "./images/covid-track.jpg",
+    "tags": [
+      "React",
+      "React Hooks",
+      "React Charts 2",
+      "Material-UI",
+      "ES6",
+      "APIs",
+      "Flexbox",
+      "Git"
+    ]
+  },
+  {
+    "title": "Portfolio",
+    "slug": "my-portofilio",
+    "url": "https://demetrio.dev",
+    "git-url": "https://github.com/demetrio/portfolio",
+    "image": "./images/portfolio.jpg",
+    "tags": ["React", "Gatbsy", "PWA", "SEO", "Flexbox", "CSS Grid", "Git"]
+  },
+  {
+    "title": "Audio Visualizer & Oscilloscope",
+    "slug": "Audio-Visualizer-Oscilloscope",
+    "url": "https://oscilloscope.demetrio.dev",
+    "git-url": "https://github.com/demetrio/Audio-Visualizer-Oscilloscope",
+    "image": "./images/audio-visualizer.jpg",
+    "tags": ["Javascript", "ES6", "Parcel", "Git"]
+  },
+  {
+    "title": "Tic Tac Toe",
+    "slug": "tic-tac-toe",
+    "url": "https://tictactoe.demetrio.dev",
+    "git-url": "https://github.com/demetrio/Tic-tac-toe",
+    "image": "./images/tic-tac-toe.jpg",
+    "tags": ["React", "React Hooks", "Flexbox", "CSS Grid", "Git"]
+  },
+  {
+    "title": "Adopt Me",
+    "slug": "adopt-me",
+    "url": "https://adopt.demetrio.dev",
+    "git-url": "https://github.com/demetrio/adopt-me",
+    "image": "./images/adopt-me.jpg",
+    "tags": ["React", "Javascript", "ES6", "Gatbsy", "Git", "Testing"]
+  },
+  {
+    "title": "Catch of the Day",
+    "slug": "catch-of-the-day",
+    "url": "https://catchoftheday.demetrio.dev/",
+    "git-url": "https://github.com/demetrio/catch-of-the-day",
+    "image": "./images/catch-of-the-day.jpg",
+    "tags": ["React", "Firebase", "OAuth", "Git", "ES6"]
+  },
+  {
+    "title": "Currency Converter",
+    "slug": "currency-converter",
+    "url": "https://currency.demetrio.dev",
+    "git-url": "https://github.com/demetrio/currency-converter",
+    "image": "./images/currency-converter.jpg",
+    "tags": ["Javascript", "ES6", "APIs", "Git"]
+  },
+  {
+    "title": "Marketing Seo",
+    "slug": "marketing-seo",
+    "url": "https://seomarketing.demetrio.dev",
+    "git-url": "https://github.com/demetrio/marketing-seo",
+    "image": "./images/seo-marketing.jpg",
+    "tags": ["CSS3", "CSS Grid", "Flexbox", "Mobile First", "Git"]
+  },
+  {
+    "title": "Simple Blog",
+    "slug": "simpleblog",
+    "url": "https://simpleblog.demetrio.dev",
+    "git-url": "https://github.com/demetrio/simpleblog",
+    "image": "./images/simpleblog.jpg",
+    "tags": ["CSS3", "Flexbox", "Mobile First", "Git"]
+  },
+  {
+    "title": "Dad Jokes",
+    "slug": "dad-jokes",
+    "url": "https://dadjokes.demetrio.dev",
+    "git-url": "https://github.com/demetrio/dad-jokes",
+    "image": "./images/dad-jokes.jpg",
+    "tags": ["Javascript", "Parcel", "APIs", "ES6", "Git"]
+  },
+  {
+    "title": "Etch-a-sketch!",
+    "slug": "etch-a-sketch",
+    "url": "https://sketch.demetrio.dev/",
+    "git-url": "https://github.com/demetrio/etch-a-sketch",
+    "image": "./images/etch-a-sketch.jpg",
+    "tags": ["Javascript", "ES6", "Canvas", "Git"]
+  },
+  {
+    "title": "Gatsby Blog",
+    "slug": "gatsby-example-blog",
+    "url": "https://gatsbyblog.demetrio.dev",
+    "git-url": "https://github.com/demetrio/gatsby-example-blog",
+    "image": "./images/gatsby-blog.jpg",
+    "tags": [
+      "Gatbsy",
+      "React",
+      "Javascript",
+      "ES6",
+      "APIs",
+      "CSS Grid",
+      "Flexbox",
+      "Git"
+    ]
+  },
+  {
+    "title": "Javascript 30",
+    "slug": "javascript30",
+    "url": "https://js30.demetrio.dev",
+    "git-url": "https://github.com/demetrio/javascript30",
+    "image": "./images/js30.jpg",
+    "tags": ["Javascript", "ES6", "CSS Grid", "Flexbox", "Git"]
+  },
+  {
+    "title": "Splash Page",
+    "slug": "splashpage",
+    "url": "https://splash.demetrio.dev",
+    "git-url": "https://github.com/demetrio/splashpage",
+    "image": "./images/splashpage.jpg",
+    "tags": ["CSS3", "Flexbox", "Mobile First", "Git"]
+  }
 ]
