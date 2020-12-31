@@ -19,20 +19,20 @@
     "gatsby-transformer-json": "^2.4.12",
     "gatsby-transformer-sharp": "^2.5.15",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.11.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^10.4.9",
     "babel-jest": "^26.3.0",
     "babel-preset-gatsby": "^0.5.10",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.4.2",
     "prettier": "^1.19.1",
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.14.0"
   },
   "keywords": [
     "gatsby"

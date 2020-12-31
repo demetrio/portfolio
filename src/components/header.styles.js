@@ -31,6 +31,7 @@ export const LogoContainer = styled(Link)`
 
 export const LogoNavLink = styled.div`
   width: 2rem;
+  min-width: 2rem;
   height: 2rem;
   border: 0.125rem solid white;
   overflow: hidden;
