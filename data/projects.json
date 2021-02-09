@@ -1,5 +1,22 @@
 [
   {
+    "title": "Slicks Slices",
+    "slug": "slicks-slices",
+    "url": "https://pizza.demetrio.dev",
+    "git-url": "https://github.com/demetrio/slicks-slices",
+    "image": "./images/slicks-slices.jpg",
+    "tags": [
+      "React",
+      "Gatsby",
+      "GraphQL",
+      "Progressive Images",
+      "Headless CMS",
+      "Sanity",
+      "Serverless Functions",
+      "Git"
+    ]
+  },
+  {
     "title": "Covid19 Tracker",
     "slug": "covid-track",
     "url": "https://covid.demetrio.dev",
@@ -24,6 +41,7 @@
     "image": "./images/portfolio.jpg",
     "tags": ["React", "Gatbsy", "PWA", "SEO", "Flexbox", "CSS Grid", "Git"]
   },
+
   {
     "title": "Audio Visualizer & Oscilloscope",
     "slug": "Audio-Visualizer-Oscilloscope",
