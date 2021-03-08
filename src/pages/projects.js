@@ -7,28 +7,25 @@ import SEO from '../components/seo';
 import { Welcome, ListProjects } from '../styles/projects.styles';
 
 const Projects = () => {
-  const data = useStaticQuery(graphql`
-    {
-      allProjectsJson {
-        edges {
-          node {
-            id
-            title
-            url
-            git_url
-            tags
-            image {
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+  const data = useStaticQuery(graphql`{
+  allProjectsJson {
+    edges {
+      node {
+        id
+        title
+        url
+        git_url
+        tags
+        image {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
           }
         }
       }
     }
-  `);
+  }
+}
+`);
 
   const projects = data.allProjectsJson.edges;
 
@@ -39,7 +36,7 @@ const Projects = () => {
       <ListProjects>
         {projects.map(({ node: project }) => {
           const { id, title, url, git_url, tags } = project;
-          const imageData = project.image.childImageSharp.fluid;
+          const imageData = project.image.childImageSharp.gatsbyImageData;
           return (
             <ProjectCard
               key={id}

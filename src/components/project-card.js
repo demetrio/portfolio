@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 import { FaGithub } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
 
@@ -16,7 +16,7 @@ import {
 const ProjectCard = ({ url, title, imageData, git_url, tags }) => (
   <Project>
     <ProjectImage aria-label={`Screenshot of ${title} project`}>
-      <Image style={{ maxHeight: '230px' }} fluid={imageData} alt={title} />
+      <GatsbyImage image={imageData} style={{ maxHeight: '230px' }} alt={title} />
     </ProjectImage>
     <ProjectInfo>
       <h3>{title}</h3>

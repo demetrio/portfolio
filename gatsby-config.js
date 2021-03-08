@@ -13,6 +13,7 @@ module.exports = {
     `gatsby-transformer-json`,
     `gatsby-plugin-emotion`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
