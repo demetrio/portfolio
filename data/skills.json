@@ -19,21 +19,21 @@
     "main": "JS",
     "skills": [
       "ES6+",
-      "JQuery",
       "TypeScript",
       "GraphQL",
       "NodeJS",
       "Express",
       "Jest",
-      "ESLint"
+      "ESLint",
+      "JQuery"
     ]
   },
   {
     "main": "React",
     "skills": [
-      "React",
-      "React Router",
       "Redux",
+      "Redux TK",
+      "React Router",
       "React Testing Library",
       "Gatsby",
       "Styled Components",
@@ -60,13 +60,13 @@
     "skills": [
       "Java",
       "JAX-WS",
-      "Drools",
       "JUnit",
       "Selenium",
       "Mockito",
       "MongoDB",
       "MySQL",
-      "REST & GraphQL API"
+      "REST & GraphQL APIs",
+      "Headless CMS"
     ]
   }
 ]
